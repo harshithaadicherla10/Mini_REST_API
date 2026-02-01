@@ -28,14 +28,14 @@ Mini_REST_API/
 
 ### 1️⃣ Clone the Repository
 
-```bash
+''bash
 git clone https://github.com/harshithaadicherla10/Mini_REST_API.git
 cd Mini_REST_API
 
-###2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 pip install flask
 
-###3️⃣ Run the Application
+### 3️⃣ Run the Application
 python app.py
 
 Server will start at:
@@ -53,7 +53,7 @@ http://127.0.0.1:5000
 | PUT   | /books/<id>     | Update book by ID   |
 | DELETE| /books/<id>     | Delete book by ID   |
 
-##🧪 Sample JSON Data
+## 🧪 Sample JSON Data
 
 Add Book (POST /books)
 {
@@ -66,32 +66,23 @@ Response
   "title": "Python Basics"
 }
 
-##🧠 Concepts Covered
+## 🧠 Concepts Covered
 
 - Flask routing
-
 - HTTP methods (GET, POST, PUT, DELETE)
-
 - REST API fundamentals
-
 - JSON handling with jsonify()
-
 - CRUD operations
-
 - In-memory data management
 
-##🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 - Database integration (MySQL / SQLite)
-
 - Authentication & authorization
-
 - Input validation
-
 - API testing with unit tests
-
 - Deployment to cloud platforms
 
-##👤 Author
+## 👤 Author
 
 Harshitha Adicherla
